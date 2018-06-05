@@ -1,0 +1,14 @@
+<div style="display: flex; flex-direction: column;">
+  <p>This is working</p>
+  <div>
+    <p *ngFor="let host of items | async">
+      {{host | json}}
+    </p>
+  </div>
+  <div #me>
+    <div id="me"></div>
+  </div>
+  <div #they>
+
+  </div>
+</div>
